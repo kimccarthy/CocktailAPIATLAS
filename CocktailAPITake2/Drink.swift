@@ -3,7 +3,7 @@
 import Foundation
 
 struct Drink: Codable {
-    var name: String
+    var strDrink: String
 //    var height: S?
 //    var mass: Int?
 

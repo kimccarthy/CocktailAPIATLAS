@@ -1,8 +1,7 @@
 //
-//  ContentView.swift
-//  StarWars
+//  
 //
-//  Created by Zef Houssney on 9/28/22.
+//  Created by Kate McCarthy.
 //
 
 import SwiftUI
@@ -13,10 +12,10 @@ struct ContentView: View {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
-            if let luke = Person.luke {
-                Text("Hello, \(luke.name)!")
+            if let marg = Drink.marg {
+                Text("Hello, \(marg.strDrink)!")
             } else {
-                Text("No person found.")
+                Text("No drink found.")
             }
         }
         .padding()
