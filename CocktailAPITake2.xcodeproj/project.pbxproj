@@ -14,6 +14,9 @@
 		63F97B4728EB654600ACF15B /* CocktailAPITake2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F97B4628EB654600ACF15B /* CocktailAPITake2Tests.swift */; };
 		63F97B5128EB654600ACF15B /* CocktailAPITake2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F97B5028EB654600ACF15B /* CocktailAPITake2UITests.swift */; };
 		63F97B5328EB654600ACF15B /* CocktailAPITake2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F97B5228EB654600ACF15B /* CocktailAPITake2UITestsLaunchTests.swift */; };
+		63F97B6028EB65B100ACF15B /* cocktail.json in Resources */ = {isa = PBXBuildFile; fileRef = 63F97B5F28EB65B100ACF15B /* cocktail.json */; };
+		63F97B6228EB65E100ACF15B /* Drink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F97B6128EB65E100ACF15B /* Drink.swift */; };
+		63F97B6428EB668300ACF15B /* Data+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F97B6328EB668300ACF15B /* Data+.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		63F97B4C28EB654600ACF15B /* CocktailAPITake2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CocktailAPITake2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		63F97B5028EB654600ACF15B /* CocktailAPITake2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocktailAPITake2UITests.swift; sourceTree = "<group>"; };
 		63F97B5228EB654600ACF15B /* CocktailAPITake2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocktailAPITake2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		63F97B5F28EB65B100ACF15B /* cocktail.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = cocktail.json; sourceTree = "<group>"; };
+		63F97B6128EB65E100ACF15B /* Drink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drink.swift; sourceTree = "<group>"; };
+		63F97B6328EB668300ACF15B /* Data+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +101,10 @@
 			isa = PBXGroup;
 			children = (
 				63F97B3528EB654300ACF15B /* CocktailAPITake2App.swift */,
+				63F97B5F28EB65B100ACF15B /* cocktail.json */,
 				63F97B3728EB654300ACF15B /* ContentView.swift */,
+				63F97B6128EB65E100ACF15B /* Drink.swift */,
+				63F97B6328EB668300ACF15B /* Data+.swift */,
 				63F97B3928EB654500ACF15B /* Assets.xcassets */,
 				63F97B3B28EB654500ACF15B /* Preview Content */,
 			);
@@ -233,6 +242,7 @@
 			files = (
 				63F97B3D28EB654500ACF15B /* Preview Assets.xcassets in Resources */,
 				63F97B3A28EB654500ACF15B /* Assets.xcassets in Resources */,
+				63F97B6028EB65B100ACF15B /* cocktail.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,7 +268,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				63F97B3828EB654300ACF15B /* ContentView.swift in Sources */,
+				63F97B6228EB65E100ACF15B /* Drink.swift in Sources */,
 				63F97B3628EB654300ACF15B /* CocktailAPITake2App.swift in Sources */,
+				63F97B6428EB668300ACF15B /* Data+.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

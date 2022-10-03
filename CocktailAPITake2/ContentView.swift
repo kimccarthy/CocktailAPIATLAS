@@ -1,8 +1,8 @@
 //
 //  ContentView.swift
-//  CocktailAPITake2
+//  StarWars
 //
-//  Created by Kate McCarthy on 10/3/22.
+//  Created by Zef Houssney on 9/28/22.
 //
 
 import SwiftUI
@@ -13,7 +13,11 @@ struct ContentView: View {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            if let luke = Person.luke {
+                Text("Hello, \(luke.name)!")
+            } else {
+                Text("No person found.")
+            }
         }
         .padding()
     }
